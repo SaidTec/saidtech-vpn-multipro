@@ -1,0 +1,9 @@
+╔════════════════════════════════════════════╗
+      🌐 SAID_TÉCH PREMIUM VPN SERVICE      
+╠════════════════════════════════════════════╣
+║ ✅ Connected: $(date +"%Y-%m-%d %H:%M:%S")                 
+║ 📡 Protocol : SSH                         
+║ 👤 Client   : $USER                       
+║ ⏳ Expiry   : $(jq -r ".[\"$USER\"].expiry" $DB_FILE)
+║ 📜 Note     : Stay ethical. No torrenting.
+╚════════════════════════════════════════════╝

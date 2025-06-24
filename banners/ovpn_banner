@@ -1,0 +1,9 @@
+╔════════════════════════════════════════════╗
+       🌐 SAID_TÉCH PREMIUM VPN SERVICE      
+╠════════════════════════════════════════════╣
+║ ✅ Connected: $(date +"%Y-%m-%d %H:%M:%S")                 
+║ 📡 Protocol : OpenVPN                     
+║ 👤 Client   : $common_name                
+║ ⏳ Expiry   : $(jq -r ".[\"$common_name\"].expiry" $DB_FILE)
+║ 📜 Note     : Stay ethical. No torrenting.
+╚════════════════════════════════════════════╝
